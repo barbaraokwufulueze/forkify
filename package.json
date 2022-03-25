@@ -1,21 +1,21 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "Recipe applicatio",
+  "description": "Recipe application",
   "default": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --public-url . --dist-dir ./dist --no-cache"
   },
   "author": "Barbara Okwufulueze",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.3.2",
-    "parcel": "^2.3.2"
+    "@parcel/transformer-sass": "2.4.0",
+    "parcel": "2.4.0"
   },
   "dependencies": {
-    "core-js": "^3.21.1",
-    "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.9"
+    "core-js": "3.21.1",
+    "fracty": "1.0.9",
+    "regenerator-runtime": "0.13.9"
   }
 }
