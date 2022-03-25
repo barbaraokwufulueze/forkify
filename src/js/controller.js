@@ -50,6 +50,10 @@ const controlSearchResults = async function () {
 
     // Get search query
     const query = searchView.getQuery();
+    if (query === '')
+      resultsView.renderError(
+        `No recipe supplied 💥 💥 💥 💥 \bPlease type a recipe name ;)`
+      );
     if (!query) return;
 
     // Load search results
