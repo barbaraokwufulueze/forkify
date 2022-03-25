@@ -115,7 +115,7 @@ export const addToShoppingList = function (ingredients) {
   ingredients.map(ing => {
     state.shoppingList.add(ing.description.trim());
   });
-  console.log(state.shoppingList);
+  console.log(state.shoppingList, 'HELLO WORLD');
   persistShoppingList();
 };
 
