@@ -1,4 +1,4 @@
-![Forkify](https://user-images.githubusercontent.com/17248394/160606751-ff72aea0-25cf-4e67-9917-51aeba5f61da.png)
+![forkify](https://user-images.githubusercontent.com/17248394/160616097-85fe04c1-c029-419c-ac0f-e6f6e9cdf883.png)
 
 # Forkify
 
