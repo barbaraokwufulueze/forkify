@@ -4,6 +4,7 @@
 
 Forkify is a food recipe web application that fetches data from the Forkify API and displays recipe information. Users can:
  - search, view, and bookmark recipes
+ - adjust recipe ingredients based on the number of servings
  - upload recipes
  - add recipe ingredients to a shopping list
  - delete items from shopping list and empty shopping list
